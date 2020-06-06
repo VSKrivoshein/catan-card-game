@@ -1,0 +1,19 @@
+{
+  "name": "catan-cart-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && npm install && npm start",
+    "dev": "run-p Frontclient Backserver",
+    "Backserver": "cd backend && npm run dev",
+    "Frontclient": "cd frontend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
